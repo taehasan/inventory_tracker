@@ -156,6 +156,12 @@ export default function Home() {
               <Button variant="contained" onClick={() => removeItem(name)}>
                 Remove
               </Button>
+
+              <Button variant="contained" onClick={() => addItem(name)}>
+                Add
+              </Button>
+
+
             </Box>
           ))}
         </Stack>
